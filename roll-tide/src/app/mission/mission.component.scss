@@ -1,5 +1,8 @@
+
 .mission {
-    @include flexSize(flex, 100vw, 30vh);
+    display: flex;
+    height: 30vh;
+    width: 100vw;
     margin-top: 100vh;
     font-size: 3em;
     color: rgba($color: #7fa8dd, $alpha: 1.0)
