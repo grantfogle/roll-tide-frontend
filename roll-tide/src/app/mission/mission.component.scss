@@ -3,21 +3,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 100%;
     width: 100vw;
-    margin-top: 100vh;
-    font-size: 1.5em;
+    font-size: 1.6em;
     color: rgba($color: #7fa8dd, $alpha: 1.0)
 }
 
 .statement {
     display: flex;
+    
     p{
         width: 50vw;
-        color: rgba($color: #353535f5, $alpha: 1.0)
+        color: rgba($color: #353535, $alpha: 1.0);
+        font-size: 1em;
     }
     span {
-        width: 30vw;
+        float: left;
+        width: 15vw;
+        font-size: 1.3em;
     }
 
 }
