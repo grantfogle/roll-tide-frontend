@@ -1,0 +1,6 @@
+.mission {
+    @include flexSize(flex, 100vw, 30vh);
+    margin-top: 100vh;
+    font-size: 3em;
+    color: rgba($color: #7fa8dd, $alpha: 1.0)
+}

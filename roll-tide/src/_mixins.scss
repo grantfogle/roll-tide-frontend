@@ -1,0 +1,5 @@
+@mixin flexSize($width, $height) {
+    display: flex;
+    width: $width;
+    height: $height;
+}

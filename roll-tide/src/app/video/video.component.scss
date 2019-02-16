@@ -1,0 +1,49 @@
+
+  
+  @media (min-aspect-ratio: 16/9) {
+    .landing-viewport__video{
+      overflow-y: hidden;    
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-aspect-ratio: 16/9) {
+    .landing-viewport__video {
+      overflow-y: hidden;
+      width: auto;
+    }
+  }
+  
+  .App-header {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-x: hidden;
+    z-index: -1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .landing-viewport__video {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
+  
