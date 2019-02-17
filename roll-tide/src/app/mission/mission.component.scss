@@ -7,35 +7,42 @@
     font-size: 1.6em;
     color: rgba($color: #7fa8dd, $alpha: 1.0);
     margin: 0;
-    margin-left: -0.5vw;
+    margin-left: -0.55vw;
 }
 
 .quote {
-    width: 100%;
+    width: 95%;
     height: 40vh;
     background-image: url('https://images.unsplash.com/photo-1455245580044-664ab5a916db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
     background-position: fixed;
     background-size: auto 40vh;
     background-repeat: no-repeat; 
+
+    span {
+        width: 20vw;
+        font-size: 0.5em;
+        color: #EEF0F4;
+    }
 }
 
 .statement {
     display: flex;
     width: 210vw;
     height: 40vh;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     background-color: #f3f3f5;
-    p{
-        text-justify: inter-word;
-        width: 50vw;
-        color: rgba($color: #353535, $alpha: 1.0);
-        font-size: 1em;
-    }
-    span {
-        width: 15vw;
-        font-size: 1.3em;
-        
+
+    h3 {
+        margin: 0;
     }
 
+    p {
+        text-justify: inter-word;
+        width: 50vw;
+        color: rgba($color: #414141, $alpha: 1.0);
+        font-size: 1em;
+        text-align: center;
+    }
 }
