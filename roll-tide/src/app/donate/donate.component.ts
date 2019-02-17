@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-donate',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DonateComponent implements OnInit {
 
-  constructor() { }
+  constructor(private httpClient: HttpClient) { }
+
 
   ngOnInit() {
+    this.httpClient.get('localhost:3000')
+      .toPromise()
+      .then(data => {
+        console.log(data)
+      })
   }
 
 }
